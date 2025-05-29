@@ -1,0 +1,76 @@
+.caroSection{
+    margin: 4vh 0;
+}
+
+.finderCarousell {
+    width: 90%;
+    margin: 4vh auto;
+    border-radius: 12px;
+}
+
+.slide {
+    border-radius: 12px;
+}
+
+.tag{
+    padding: 1.3vh;
+    text-align: center;
+    color: white;
+    font-size: 70%;
+    font-weight: 700;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.cardImage{
+    height: 34vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardBottomPart {
+    background-color: #F0F0F0;
+    padding: 2.5vh 2.5vh;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.cardBottomPart p {
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    font-weight: 800;
+    margin-bottom: 0.5vh !important;
+    
+}
+
+.adress {
+    color: var(--brand-color);
+    font-size: 1.8vh;
+    margin-bottom: 1.5vh !important;
+}
+
+.location {
+    color: #575757;
+    border: 2px solid #575757;
+    border-radius: 12px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+}
+
+.pin {
+    margin-right: 2%;
+}
+
+.bottomBtnWrapper{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}

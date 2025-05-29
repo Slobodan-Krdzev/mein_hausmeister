@@ -4,10 +4,11 @@ import styles from "./ButtonStyles.module.css"
 interface ButtonProps {
     text: string,
     style: number,
-    clickHandler?: () => void
+    clickHandler?: () => void,
+    width?: string
 }
 
-const Button = ({text, style, clickHandler}: ButtonProps) => {
+const Button = ({text, style, clickHandler, width ='50%'}: ButtonProps) => {
 
 
     const outlinedStyles = {
@@ -24,7 +25,7 @@ const Button = ({text, style, clickHandler}: ButtonProps) => {
 
 
   return (
-    <button className={styles.btn} style={{...style === 1 ? outlinedStyles : filledStyles }}>
+    <button className={styles.btn} style={{width ,...style === 1 ? outlinedStyles : filledStyles }}>
         {text}
     </button>
   )

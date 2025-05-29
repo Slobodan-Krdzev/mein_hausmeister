@@ -1,3 +1,7 @@
+.hero {
+  height: 100dvh;
+}
+
 .heroImage {
 
     background-image: url('/heroImage.png');

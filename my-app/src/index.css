@@ -18,13 +18,24 @@
   background-color: #FAFAFA;
 }
 
-/* HomePage.css */
+/* SWIPER */
+
+.swiper-pagination-bullet-active {
+  background: var(--brand-color) !important;
+ 
+}
 
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background-color: #FAFAFA;
   color: #111;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .uniquetext {

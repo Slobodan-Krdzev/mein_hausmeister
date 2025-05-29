@@ -1,0 +1,49 @@
+.phoneSection {
+    margin: 4vh auto;
+}
+
+.phoneImg {
+
+    background-image: url("/phone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35dvh;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2vh;
+    
+}
+
+.lister {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding: 6vh 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.singleItem {
+
+    text-align: center;
+    width: 80%;
+    
+}
+
+.singleItem p {
+    margin: 0;
+}
+
+.title{
+    font-weight: 700;
+    color: #181D27;
+}
+
+.desc{
+    font-weight: 300;
+    font-size: 1.6vh;
+    color: #575757;
+}
