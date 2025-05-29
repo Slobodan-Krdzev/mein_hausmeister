@@ -2,6 +2,11 @@
   height: 100dvh;
 }
 
+.toggle{
+  width: 100%;
+  margin: 0 auto;
+}
+
 .heroImage {
 
     background-image: url('/heroImage.png');

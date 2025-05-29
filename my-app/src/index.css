@@ -43,6 +43,19 @@ p {
   margin: 0;
 }
 
+/* toggle styles */
+.react-toggle-track {
+  background-color: var(--brand-color) !important;
+}
+
+.react-toggle-thumb{
+  border-color: var(--brand-color) !important;
+}
+
+.react-toggle-track-check, .react-toggle-track-x{
+  visibility: hidden !important;
+}
+
 .uniquetext {
  font-family: var(--custom-font);
 }

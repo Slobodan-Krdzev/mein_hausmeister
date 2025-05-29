@@ -1,0 +1,43 @@
+.inputWrapper {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: 4vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  padding: 15px 36px; /* Padding for left and right icons */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  border: none;
+}

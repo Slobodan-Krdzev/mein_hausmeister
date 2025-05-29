@@ -1,0 +1,80 @@
+/* FilterSidebar.module.css */
+
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.header h3 {
+  margin: 0;
+}
+
+.header a {
+  font-size: 0.85rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  margin-top: 8px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px 6px 0 0;
+}
+
+.activeTab {
+  background-color: #ff6a00;
+  color: white;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkboxList {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.checkboxList li {
+  margin-bottom: 10px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,6 +1,10 @@
 import "swiper/css";
 import styles from "./HeroStyles.module.css";
 import Button from "../Reusables/Button/Button";
+import Toggle from "react-toggle";
+import { useState } from "react";
+import "react-toggle/style.css";
+import SearchBar from "../Reusables/SearchBar/SearchBar";
 
 const dummyBtns = [
   {
@@ -22,12 +26,34 @@ const dummyBtns = [
 ];
 
 const Hero = () => {
+  const [toggleValue, setToggleValue] = useState(false);
+
+  const handleToggleChange = (e) => {
+    setToggleValue(e.target.checked);
+  };
+
   return (
     <section className={styles.hero}>
-      <div className="toggle-bar">
-        <button className="toggle active">For artisans</button>
-        <button className="toggle">For customers</button>
-      </div>
+      <label
+        className={styles.toggle}
+        style={{ display: "flex", justifyContent: "center", gap: "2%" }}
+      >
+        <span
+          style={{
+            color: !toggleValue ? "var(--brand-color)" : "",
+          }}
+        >
+          Fur Handwerker
+        </span>
+        <Toggle defaultChecked={toggleValue} onChange={handleToggleChange} />
+        <span
+          style={{
+            color: toggleValue ? "var(--brand-color)" : "",
+          }}
+        >
+          Fur Kunden
+        </span>
+      </label>
       <div className={styles.heroTextWrapper}>
         <h1 className={styles.title}>
           Handwerker
@@ -39,15 +65,19 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className={styles.heroImage}>
-
-      </div>
+      <div className={styles.heroImage}></div>
 
       <div className={styles.bottomBtnsWrapper}>
         {dummyBtns.map((btn) => (
           <Button key={btn.id} text={btn.text} style={btn.style} />
         ))}
       </div>
+
+      {/* <form className={styles.bottomForm}>
+        <input type="text" className={styles.bottomInput} placeholder="Search"/>
+      </form> */}
+
+      <SearchBar />
     </section>
   );
 };

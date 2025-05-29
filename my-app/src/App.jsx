@@ -10,11 +10,13 @@ import CircleCardCarousell from '../components/CircleCardsComponent/CircleCardCa
 import ColoredSection from '../components/ColoredSection/ColoredSection';
 import NewsletterSecton from '../components/NewsletterSection/NewsletterSecton';
 import Footer from '../components/Reusables/Footer/Footer';
+import Navbar from '../components/Reusables/Navbar/Navbar';
 
 function App() {
 
   return (
     <>
+    <Navbar />
     <Hero />
     <SecondSection />
     <CardsCarousell />
