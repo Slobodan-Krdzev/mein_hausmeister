@@ -1,5 +1,7 @@
 .hero {
   height: 100dvh;
+  overflow: hidden;
+  position: relative;
 }
 
 .toggle{
@@ -7,16 +9,73 @@
   margin: 0 auto;
 }
 
-.heroImage {
+.heroImageDiv {
 
-    background-image: url('/heroImage.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50dvh;
-    width: 80%;
-    margin: 0 auto;
+    
+    height: 35dvh;
+    width: 100%;
+    margin: 4vh auto;
     margin-bottom: 3vh;
 
+    position: relative;
+
+}
+
+.heroImg1 {
+  position: absolute;
+  top: 0%;
+  right: 15%;
+}
+
+.heroImg2 {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.heroImg3 {
+  position: absolute;
+  bottom: 2%;
+  right: 20%;
+}
+
+.tagGreen{
+  position: absolute;
+  top: 25%;
+  right: 30%;
+  background-color: #C3E2B0;
+  color: green;
+  padding: 0.5vh;
+  border-radius: 10px;
+  font-size: 1.5vh;
+}
+
+.blueTag{
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  background-color: #E8EFFE;
+  color: #5584E5;
+  padding: 0.8vh;
+  border-radius: 6px;
+  font-size: 1.5vh;
+  font-weight: 700;
+}
+
+.yellowTag{
+  position: absolute;
+  bottom: 34%;
+  right: 16%;
+  background-color: #F5CE471A;
+  color: black;
+  padding: 0.8vh;
+  border-radius: 6px;
+  font-size: 1.5vh;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title{
@@ -42,5 +101,30 @@
     justify-content: center;
     gap: 4vw;
     align-items: center;
+}
+
+.item1 {
+  position: absolute;
+  top: 15%;
+  left: 6%;
+}
+
+.item2 {
+  position: absolute;
+  top: 3%;
+  right: 2%;
+}
+
+.item3 {
+  position: absolute;
+  bottom: 28%;
+  left: 10%;
+
+}
+
+.item4 {
+  position: absolute;
+  bottom: 26%;
+  right: 10%;
 }
 
