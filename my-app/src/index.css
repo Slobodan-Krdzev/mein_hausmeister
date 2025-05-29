@@ -6,6 +6,7 @@
   font-weight: 400;
 
   --brand-color: #FA6100;
+  --brand-bg-color: #FFEFE6;
   --custom-font: "Fasthand", cursive;
  
   --custom-brand-bg: linear-gradient(180deg, #E5733F 0%, #F95D47 100%);;
@@ -35,6 +36,10 @@ body {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+
+p {
   margin: 0;
 }
 

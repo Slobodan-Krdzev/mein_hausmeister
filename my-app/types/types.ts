@@ -24,3 +24,20 @@ export interface PhoneSectionListingItemType {
     title: string,
     desc: string
 }
+
+export interface DummyPersonsItemType {
+    id: number,
+    name: string,
+    desc: string,
+    image: string
+}
+
+export interface ColoredSectionCardsItemType {
+    id: number,
+    name: string,
+    location: string,
+    image: string,
+    rating: number,
+    desc: string,
+    galery: string[]
+}

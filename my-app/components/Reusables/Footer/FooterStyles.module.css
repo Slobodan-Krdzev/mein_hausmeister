@@ -1,0 +1,38 @@
+.footer {
+    padding: 4vh 0 2vh;
+
+}
+
+.logoText{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+.clientLogo{
+    font-weight: 800;
+    font-size: 2.5vh;
+}
+
+.linksGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+  grid-template-rows: auto auto;
+  gap: 1vh;
+  width: 90%;
+  margin: 4vh auto;
+}
+
+.link {
+    color: #939393;
+    text-align: center;
+}
+
+
+.botText {
+    text-align: center;
+    font-size: 1.3vh;
+    color: #939393;
+}

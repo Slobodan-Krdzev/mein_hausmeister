@@ -1,0 +1,89 @@
+.coloredSection{
+    background-color: var(--brand-bg-color);
+    padding: 6vh 0;
+} 
+
+.coloredSection h3 {
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.6vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titleArtWrapper{
+    position: relative;
+    height: 100px;
+    margin-bottom: 2vh;
+}
+
+.titleWrapper {
+    position: absolute;
+    z-index: 2;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ticks{
+    position: absolute;
+    top: -29%;
+    left: 5%;
+    z-index: 1;
+}
+
+.titleArtWrapper h3{
+    text-align: center;
+}
+
+.testemonialsHolder {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.singleTestemonial{
+    background-color: white;
+    padding: 2vh;
+    border-radius: 15px;
+    margin-bottom: 3vh;
+}
+
+.singleTestemonial:last-child{
+    margin-bottom: 0;
+}
+
+.imageNameWrap {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2vh;
+    margin-bottom: 2vh;
+}
+
+.personImage {
+    width: 25%;
+    aspect-ratio: 1/1;
+}
+
+.name {
+    font-weight: 800;
+}
+
+.location {
+    font-size: 1.8vh;
+    color: #1461F0;
+}
+
+.desc{
+    line-height: 120%;
+    margin: 2vh 0;
+}
+
+.galery {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.galeryImg{
+    width: 25%;
+}
