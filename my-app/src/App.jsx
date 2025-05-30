@@ -11,11 +11,16 @@ import ColoredSection from '../components/ColoredSection/ColoredSection';
 import NewsletterSecton from '../components/NewsletterSection/NewsletterSecton';
 import Footer from '../components/Reusables/Footer/Footer';
 import Navbar from '../components/Reusables/Navbar/Navbar';
+import FilterSidebar from '../components/Reusables/SideMenu/SideMenu';
+import { useMenu } from '../context/FilterMenuContext/FilterMenuContext';
 
 function App() {
+  const { isOpen } = useMenu();
 
   return (
     <>
+    {isOpen && <FilterSidebar />}
+    
     <Navbar />
     <Hero />
     <SecondSection />

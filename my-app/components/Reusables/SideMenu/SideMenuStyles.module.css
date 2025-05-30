@@ -1,0 +1,119 @@
+/* FilterSidebar.module.css */
+
+.sidebar {
+  /* width: 100%; */
+  padding: 4vh;
+  /* height: 100%; */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: sans-serif;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.sidebar h3{
+    font-weight: 800;
+
+}
+
+.sidebar p {
+    color: #939393;
+    font-size: 2vh;
+    font-weight: 700;
+}
+
+.menuClose{
+    border: none;
+    font-size: 3vh;
+    background-color: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.header h3 {
+  margin: 0;
+}
+
+.header a {
+  font-size: 0.85rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  margin-top: 8px;
+  gap: 1vh;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.activeTab {
+  background-color: var(--brand-color);
+  color: white;
+}
+
+.label{
+  color: #939393 !important;
+
+}
+
+.input {
+  width: 90%;
+  padding: 16px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #939393;
+}
+
+
+.checkboxList {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.checkboxList li {
+  margin-bottom: 10px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bottomBtnWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}

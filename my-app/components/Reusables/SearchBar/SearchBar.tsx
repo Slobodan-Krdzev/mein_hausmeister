@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./SearchBarStyles.module.css";
+import { useMenu } from "../../../context/FilterMenuContext/FilterMenuContext";
 
 const InputWithIcons = () => {
+
+  const { toggleMenu } = useMenu();
+
   return (
     <form className={styles.inputWrapper} 
-    onFocus={() => console.log('On Focus')}>
+    onFocus={() => toggleMenu()}>
         
       <div className={styles.iconLeft}>
         <svg
