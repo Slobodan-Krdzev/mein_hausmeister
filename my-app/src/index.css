@@ -56,17 +56,4 @@ p {
   visibility: hidden !important;
 }
 
-.uniquetext {
- font-family: var(--custom-font);
-}
-
-
-
-
-
-.heroSection {
-  background: #fff;
-  padding: 2rem 1rem;
-  text-align: center;
-}
 
